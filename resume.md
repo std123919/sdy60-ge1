@@ -44,11 +44,16 @@
 | 2002      |Mastering Enterprise Development using Microsoft Visual Basic  |Compact Athens|
 
 ### Personal Skills
-Mother Tounge(s): Greek
-Other Laguange(s): English, level C1
+###### Mother Tounge(s): Greek
+###### Other Laguange(s): English, level C1
 
-|Date        |Title           |Provider           |
-| ------------- |-------------| -------------|
-| 2009      |Updating your Network Infrastructure and Active Directory Technology skills to Windows Server 2008  |Infolab Thessaloniki|
+### Computer Skills
+|Type        |SKill           |
+| ------------- |-------------|
+|Languages and Scripts|VB.Net, C#, ASP.NET, Java, PHP, C++ ,VB6, JQuery, JavaScript, VBScript, HTML, Delphi, Pascal, OPL, Basic|
+|Development Platforms|Windows Forms, Windows App Store, Android, Pocket PC 2003/2005, Windows Mobile, Windows Phone, Web Services|
+|Databases|    Microsoft SQL Server, MySQL, SQLite, Microsoft Access |
+|Operating Systems|DOS, Windows 98, Windows NT, Windows 2000, Windows XP, Window Vista, Windows 7, Windows 8, Windows Server 2003, Windows Server 2008, Mac OSX|
+|Software / Applications|Microsoft Visual Studio, Windows Active Directory, Microsoft Exchange Server, Microsoft ISA Server, Microsoft Office Suite, Adobe Dreamweaver, Atlantis ERP System, Arduino Development platform|
 
 
