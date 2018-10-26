@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import MarkerListItem from './MarkerListItem';
-import _ from 'lodash';
+import React, { Component } from "react";
+import MarkerListItem from "./MarkerListItem";
+import _ from "lodash";
+import CustomScroll from "react-custom-scroll";
 
 class MarkersList extends Component {
   constructor(props) {
@@ -8,8 +9,8 @@ class MarkersList extends Component {
     this.state = {
       markers: []
     };
-    let app = this.props.db.database().ref('markers');
-    app.on('value', snapshot => {
+    let app = this.props.db.database().ref("markers");
+    app.on("value", snapshot => {
       this.getData(snapshot.val());
     });
   }
@@ -30,24 +31,26 @@ class MarkersList extends Component {
   }
 
   render() {
-    const {onMarkerDeleted,onMarkerListItemSelected}=this.props;
-    let markerNodes = this.state.markers.map((marker) => {
+    const { onMarkerDeleted, onMarkerListItemSelected } = this.props;
+    let markerNodes = this.state.markers.map(marker => {
       return (
-       
-          <MarkerListItem key={marker.key} data={marker} onMarkerDeleted={onMarkerDeleted} onMarkerListItemSelected={onMarkerListItemSelected}/>
-       
-
-      )
+        <MarkerListItem
+          key={marker.key}
+          data={marker}
+          onMarkerDeleted={onMarkerDeleted}
+          onMarkerListItemSelected={onMarkerListItemSelected}
+        />
+      );
     });
     return (
-      <div style={{ "overflowY": 'scroll', "height": "580px" }}>
+      
+      <div style={{ "overflowY": 'auto', "height": "480px" }}>
         {/* <Segment> */}
         {markerNodes}
         {/* </Segment> */}
       </div>
-
     );
   }
 }
 
-export default MarkersList
+export default MarkersList;
