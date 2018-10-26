@@ -121,7 +121,7 @@ class Map extends Component {
                             info={
                                 <div>
                                     <Header>{marker.description}</Header>
-                                    <Image src={marker.imageurl}></Image>
+                                    <Image src={marker.imageurl} size='small' centered></Image>
                                 </div>}
                         />
                     ))}
