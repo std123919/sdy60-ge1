@@ -68,7 +68,7 @@ class NewMarker extends Component {
 
     return (
       <Segment>
-        <Header>Add New Marker Infomation</Header>
+        <Header>Add New Marker Information</Header>
         <Form onSubmit={this.onSubmit.bind(this)}>
           <Form.Field>
             <input
