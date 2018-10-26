@@ -46,6 +46,7 @@
 ### Personal Skills
 ###### Mother Tounge(s): Greek
 ###### Other Laguange(s): English, level C1
+###### Driving License: B
 
 ### Computer Skills
 |Type        |SKill           |
