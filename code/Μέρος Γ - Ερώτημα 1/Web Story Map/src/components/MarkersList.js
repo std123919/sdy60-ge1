@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import MarkerListItem from "./MarkerListItem";
 import _ from "lodash";
-import CustomScroll from "react-custom-scroll";
+
 
 class MarkersList extends Component {
   constructor(props) {
@@ -44,7 +44,7 @@ class MarkersList extends Component {
     });
     return (
       
-      <div style={{ "overflowY": 'auto', "height": "480px" }}>
+      <div style={{ "overflowY": 'auto', "height": "620px" }}>
         {/* <Segment> */}
         {markerNodes}
         {/* </Segment> */}
