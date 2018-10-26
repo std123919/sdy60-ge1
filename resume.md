@@ -43,4 +43,12 @@
 | 2004      |2565 – Developing Microsoft .NET Applications for Windows (Visual Basic .NET)   |Compact Athens|
 | 2002      |Mastering Enterprise Development using Microsoft Visual Basic  |Compact Athens|
 
+### Personal Skills
+Mother Tounge(s): Greek
+Other Laguange(s): English, level C1
+
+|Date        |Title           |Provider           |
+| ------------- |-------------| -------------|
+| 2009      |Updating your Network Infrastructure and Active Directory Technology skills to Windows Server 2008  |Infolab Thessaloniki|
+
 
