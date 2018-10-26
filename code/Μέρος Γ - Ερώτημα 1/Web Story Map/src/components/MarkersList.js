@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import MarkerListItem from './MarkerListItem';
 import _ from 'lodash';
-import { Segment,Image } from 'semantic-ui-react'
 
 class MarkersList extends Component {
   constructor(props) {

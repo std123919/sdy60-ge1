@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import trim from 'trim';
-import {Segment,TextArea,Form,Field} from 'semantic-ui-react'
+import {Segment,TextArea,Form} from 'semantic-ui-react'
 
 class MessageBox extends Component {
 

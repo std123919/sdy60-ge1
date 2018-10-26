@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import { Grid } from 'semantic-ui-react';
 import MarkersList from './MarkersList'
-import MessageBox from './MessageBox'
 import NewMarker from './NewMarker'
 import Map from './Map'
-import cuid from 'cuid';
 import _ from 'lodash';
 import {geolocated} from 'react-geolocated';
 
@@ -42,17 +40,7 @@ class Dashboard extends Component {
         });
 
     }
-    constructor(props) {
-        super(props);
-        // this.state = {
-        //   markers: []
-        // };
-        // let app = this.props.db.database().ref('markers');
-        // app.on('value', snapshot => {
-        //   this.getData(snapshot.val());
-        // });
-    }
-
+   
     getData(values) {
         let markersVal = values;
         let markers = _(markersVal)

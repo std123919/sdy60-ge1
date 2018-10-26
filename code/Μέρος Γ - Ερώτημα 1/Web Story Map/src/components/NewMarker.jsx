@@ -63,7 +63,7 @@ class NewMarker extends Component {
   };
 
   render() {
-    const { title, description, imageurl, isUploading, progress } = this.state;
+    const { title, description, imageurl, isUploading  } = this.state;
     const { lat, lng, db } = this.props;
 
     return (

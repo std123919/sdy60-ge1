@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { GoogleApiWrapper, InfoWindow, Map as GMap, Marker } from 'google-maps-react';
-import { Segment, Icon, Header, Image } from 'semantic-ui-react'
+import {Header, Image } from 'semantic-ui-react'
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+//const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 
 class Map extends Component {
